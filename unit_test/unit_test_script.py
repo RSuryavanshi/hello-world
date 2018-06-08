@@ -1,7 +1,7 @@
 #import sum from hello_world
 #import hello_world
 import sys
-sys.path.append('../')
+#sys.path.append('../')
 from hello_world import sum
 
 print "############# Unit Test Script"
