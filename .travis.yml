@@ -1,0 +1,8 @@
+language:
+    - python
+
+python:
+    - '2.7.14'
+
+script:
+   - unit_test/unit_test_script.py
