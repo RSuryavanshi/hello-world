@@ -1,5 +1,4 @@
 
-
 print ("Hello World!!!")
 
 
@@ -13,6 +12,3 @@ def sum(a, b) :
 
 hello()
 
-print "Adding two numbers"
-total = sum( 3, 4)
-print "Total:", total
