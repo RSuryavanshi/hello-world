@@ -4,5 +4,8 @@ language:
 python:
     - '2.7.14'
 
+before_install:
+  - chmod +x unit_test/unit_test_script.py
+    
 script:
    - unit_test/unit_test_script.py
