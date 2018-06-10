@@ -14,9 +14,9 @@ class CiBuild(object):
         
     def run_unit_tests(self):
         scriptToRun = 'python ' + self._unit_test_dir + "/unit_test_script.py"
-        #subprocess.Popen(scriptToRun, cwd=self._root_dir, shell=True)
+        subprocess.Popen(scriptToRun, cwd=self._root_dir, shell=True)
         print('>>>>>> Unit test script to run: %s' % scriptToRun)
-        subprocess.Popen(scriptToRun, cwd=self._root_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #subprocess.Popen(scriptToRun, cwd=self._root_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
         print('Unit test script completed successfully')
 
         
