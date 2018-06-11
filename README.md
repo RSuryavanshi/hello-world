@@ -1,4 +1,11 @@
-Hello World!!!
+# Hello World!!!
+
+https://travis-ci.org/RSuryavanshi/hello-world.svg?branch=master
+
+https://img.shields.io/github/license/mashape/apistatus.svg
+
+https://img.shields.io/github/package-json/v/badges/shields.svg
+
 
 My first repo...
 
@@ -15,6 +22,7 @@ My first repo...
     
     
 Other Commands:
+
     git add -A
     git commit -m <message>
     git push
