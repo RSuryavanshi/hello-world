@@ -1,11 +1,6 @@
 # Hello World!!!
-
-https://travis-ci.org/RSuryavanshi/hello-world.svg?branch=master
-
-https://img.shields.io/github/license/mashape/apistatus.svg
-
-https://img.shields.io/github/package-json/v/badges/shields.svg
-
+[![Validated](https://travis-ci.org/RSuryavanshi/hello-world.svg?branch=master)](https://travis-ci.org/RSuryavanshi/hello-world)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://en.wikipedia.org/wiki/MIT_License)
 
 My first repo...
 
