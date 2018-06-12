@@ -31,6 +31,10 @@ Other Commands:
     git log
     
     
+    #To cache password
+    git config --global credential.helper wincred
+
+    
 Tool Chains: 
 
 • GITHUB basics
@@ -43,7 +47,8 @@ Tool Chains:
     -	Python 'pytest' and 'unittest'.
 
 • Documentation:  
-    -	Pydoc 
-            python C:\Python27\Lib\pydoc.py -w openhltest > pydoc_gen-openhlt.html
-    -	pydocmd  (https://github.com/fboender/pydocmd)
-            python pydocmd.py openhltest.py > openhltest_doc.md
+    - Pydoc 
+        python C:\Python27\Lib\pydoc.py -w openhltest > pydoc_gen-openhlt.html
+
+    - pydocmd  (https://github.com/fboender/pydocmd)
+        python pydocmd.py openhltest.py > openhltest_doc.md
